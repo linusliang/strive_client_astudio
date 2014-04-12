@@ -1,0 +1,103 @@
+
+<!-- Parent layout for holding views -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >    
+       
+		<TextView
+		    android:id="@+id/textView_mph"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#000000"
+		    android:textAppearance="?android:attr/textAppearanceSmall" />
+    <!-- ImageView for Red star -->
+
+    <ImageView
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red" />
+    
+    <!-- ImageView for yellow star -->
+
+    <ImageView
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/yellow" />
+    
+    <!-- ImageView for green star -->
+
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/green" />
+    
+    <!-- ImageView for upper right lock icon -->
+
+    <ImageView
+        android:id="@+id/cir_right_top"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/locker_icon"
+        android:visibility="visible" />
+    
+    <!-- ImageView for upper left lock icon -->
+
+    <ImageView
+        android:id="@+id/cir_left_top"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/locker_icon"
+        android:visibility="invisible" />
+    
+    <!-- ImageView for bottom right lock icon -->
+
+    <ImageView
+        android:id="@+id/cir_right_bottom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/locker_icon"
+        android:visibility="invisible" />
+
+    <!-- ImageView for Background for Red Star -->
+
+    <ImageView
+        android:id="@+id/back_box_red"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/back" />
+    
+    <!-- ImageView for Background for yellow Star -->
+
+    <ImageView
+        android:id="@+id/back_box_yellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/back" />
+    
+    <!-- ImageView for Background for green Star -->
+
+    <ImageView
+        android:id="@+id/back_box_green"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/back" />
+
+</RelativeLayout>

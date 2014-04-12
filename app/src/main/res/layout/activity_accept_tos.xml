@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_promise"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="@string/txt_promise" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_tos"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:scrollbars = "vertical"
+        android:maxLines = "30"
+        android:text="@string/txt_tos" />
+
+    <Button
+        android:id="@+id/btn_accept_tos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_tos" />
+
+</LinearLayout>

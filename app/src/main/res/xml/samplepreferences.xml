@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/sample_pref_categ_1">
+		<CheckBoxPreference android:key="enableSpeedTickerService"
+							android:title="@string/sample_pref_ckb" 
+							android:summary="@string/sample_pref_check_it" 
+							android:defaultValue="false"/>		
+	</PreferenceCategory>
+
+</PreferenceScreen>
